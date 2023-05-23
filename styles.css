@@ -1,6 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 body{
     box-sizing: border-box;
-    font-family: Arial, sans-serif;
     margin: 20px;
     background-color: burlywood;
     color: black;
@@ -25,14 +25,13 @@ p{
 }
   
 img{
-    margin: 0 auto;
+    max-width: 950px;
+    max-height: 950px;
     border-top: 20px groove white;
     border-bottom: 20px ridge white;
-    border-radius: 1000px;
-    max-width: 400px;
-    height: auto;
-    display:inline-block
-    
+    border-radius: 50%;
+    display:block;  
+    margin: auto;
 }
 
 section{
